@@ -1,0 +1,20 @@
+{
+  "name": "lungeapp",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "latest",
+    "body-parser": "latest",
+    "dotenv": "^16.0.1",
+    "ejs": "latest",
+    "express": "latest",
+    "mysql": "latest",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "datainvent",
+  "license": "ISC"
+}
