@@ -29,7 +29,22 @@ app.get('/login/', function (req, res) {
         console.error('table error: ' + err);
         return;
       }
-    // console.log(result);
+    console.log(result);
+  res.end(JSON.stringify(result));
+
+  });
+  // console.log(response);
+  // res.end(JSON.stringify(result));
+})
+app.get('/fortest/', function (req, res) {
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  var response = { "response" : "This is GET method." }
+  connection.query("SELECT * FROM user", function (err, result, fields) {
+    if (err) {
+        console.error('table error: ' + err);
+        return;
+      }
+    console.log(result);
   res.end(JSON.stringify(result));
 
   });
