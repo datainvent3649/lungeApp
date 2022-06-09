@@ -18,7 +18,7 @@ connection.connect(function(err) {
   }
   // console.log(connection);
   
-  console.log('Connected to database.');
+  console.log('Connected to database.Update node mon test');
   connection.query('USE lungeDatabase;');
   
 app.get('/login/', function (req, res) {

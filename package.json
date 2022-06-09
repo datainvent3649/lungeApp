@@ -13,6 +13,8 @@
     "nodemon": "^2.0.16"
   },
   "scripts": {
+    
+    "watch":"nodemon",
     "start": "node app.js"
   },
   "author": "datainvent",
