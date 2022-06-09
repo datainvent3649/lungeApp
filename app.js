@@ -44,7 +44,7 @@ app.get('/fortest/', function (req, res) {
         console.error('table error: ' + err);
         return;
       }
-    console.log(result);
+    // console.log(result);
   res.end(JSON.stringify(result));
 
   });
